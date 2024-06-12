@@ -151,7 +151,7 @@ markdown 文本修饰语言，用特殊符号修饰正文效果<br>
 
 
 
-![zhishi3](https://postimage.me//image//6.d5VAg "标题")
+[zhishi3](https://postimage.me/image/6.d5VAg "标题")
 
 ##
 
