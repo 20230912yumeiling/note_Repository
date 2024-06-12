@@ -76,10 +76,10 @@ markdown 文本修饰语言，用特殊符号修饰正文效果<br>
   ps aux 
   ls -l
 ```
-##Github##
+#Github<br>
 ##关键字查询 awesome,去此标签类别中查询项目<br>
-##python tutorial 查询资料，书籍 ，文档
-##socket sample 查询对应技术的代码样本
+##python tutorial 查询资料，书籍 ，文档<br>
+##socket sample 查询对应技术的代码样本<br>
 ##Github三要素##
 ###Reppository###
 ## 仓库是github项目存储基本单位
@@ -103,4 +103,38 @@ markdown 文本修饰语言，用特殊符号修饰正文效果<br>
 ##仓库管理软件，使用git 管理私人代码或企业代码
 ###设备认证###
 ##1.如何让网站的账户与设备绑定，后续完成代码的管理，上传下载
+```bash
+ git init //创建本地仓库
+ git config --list //查看git 配置文件
+ git config --global user.email"邮箱"
+ git config --global user.name "用户名"
+ ssh—keygen -t rsa -C "注册邮箱" //创建本地图文
+ //ssh 远程访问
+ //去对应目录查找密文文件
+ rsa.pub //复制密文，粘贴 settings->SSH key and GPG ->new ssh key ->粘贴
+ ssh -T git@github.com //测试关联是否成功
+```
 
+##2.为目标仓库起别名，定位目标仓库，后续上传<br>
+```bash
+  git remote add origin "ssh地址 ”  //为ssh 仓库地址 创建别名为origin
+  git remote remove origin  //删除origin 别名
+```
+###代码更新的依赖关系被破坏、
+##
+本地内容比云端新，完成更新 替换但是如果直接修改云端内容，导致，本地内容无法再次提交 <br>
+先拉取git pull 云端内容，与本地内容合并或操作，而后再次推即可
+```bash
+   git pull --rebase origin master
+   git rebase --skip //忽略本地内容，保存云端内容
+   git rebase --abort //忽略本地内容，保存云端内容 
+   git rebase --contiue //忽略本地内容，保存云端内容
+```
+###下载开源代码
+##
+```bash
+  git clone "http 仓库地址" //下载开源项目code资源
+```
+###分支branch
+##
+关于分支的命令，创建分支，选择分支，合并分支 
