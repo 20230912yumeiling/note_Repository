@@ -123,6 +123,8 @@ markdown 文本修饰语言，用特殊符号修饰正文效果<br>
 #Git 软件，分布式控制系统
 ##
 仓库管理软件，使用git 管理私人代码或企业代码
+ ![zhishi2](https://postimage.me/image/Snipaste-2024-06-12-14-37-58.d5Jp3 "标题")
+
 ##
 
 
