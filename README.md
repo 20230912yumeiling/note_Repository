@@ -111,7 +111,7 @@ markdown 文本修饰语言，用特殊符号修饰正文效果<br>
 
   不仅可以管理代码存储，便于多人协作开发<br>
 
-  ![zhishi](https://postimage.me/image/1.d5EWf "悬停标题")
+  [zhishi](https://postimage.me/image/1.d5EWf "悬停标题")
 
 ##
 #仓库内容<br>
