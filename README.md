@@ -77,15 +77,17 @@ markdown 文本修饰语言，用特殊符号修饰正文效果<br>
   ls -l
 ```
 #Github<br>
-##关键字查询 awesome,去此标签类别中查询项目<br>
-##python tutorial 查询资料，书籍 ，文档<br>
-##socket sample 查询对应技术的代码样本<br>
-##Github三要素##
-###Reppository###
-## 仓库是github项目存储基本单位
-##一个仓库中存储一个项目，一个用户可以拥有多个仓库，一般仓库分为public,private
-###Commit提交###
-##程序员在整个开发周期，有大量的对代码的迭代，修改，都可以commit方式记录，便于程序员回溯代码，即使这些代码被删除，提交便于使用者
+##
+1. 关键字查询 awesome,去此标签类别中查询项目<br>
+2. python tutorial 查询资料，书籍 ，文档<br>
+3. socket sample 查询对应技术的代码样本<br>
+#Github三要素
+##
+* Reppository
+  1. 仓库是github项目存储基本单位
+  2. 一个仓库中存储一个项目，一个用户可以拥有多个仓库，一般仓库分为public,private
+* Commit提交<br>
+  程序员在整个开发周期，有大量的对代码的迭代，修改，都可以commit方式记录，便于程序员回溯代码，即使这些代码被删除，提交便于使用者
 
 ##观察整个工程的开发流程以及设计流程
 ###Branch分支###
